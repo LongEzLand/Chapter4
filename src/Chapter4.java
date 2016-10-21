@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class Chapter4 {
     // Creating new method for making a blank line
     public static void newLine(){
@@ -20,7 +22,7 @@ public class Chapter4 {
         System.out.print(":");
         System.out.println(minute);
     }
-    public static void main(String[]Args){
+        public static void main(String[]Args){
         System.out.println("First line.");
         //Using created method
         newLine();
@@ -33,6 +35,9 @@ public class Chapter4 {
         int tunnid=11;
         int minutid=59;
         printTime(tunnid,minutid);
+
+            JOptionPane.showMessageDialog(null, "Hello World!");
+
 
 
 
